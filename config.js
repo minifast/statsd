@@ -90,7 +90,7 @@ Optional Variables:
 */
 {
   graphitePort: 2003
-, graphiteHost: "graphite.example.com"
+, graphiteHost: "0.0.0.0"
 , port: 8125
 , backends: [ "./backends/graphite" ]
 }
